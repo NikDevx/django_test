@@ -10,8 +10,8 @@
 <div>
     <select id="terms">
         <option value="" disabled selected>Послуги</option>
-        {% for t in terms %}
-            <option>{{ t }}</option>
+        {% for l, s in terms %}
+            <option value="{{ s }}">{{ l }}</option>
         {% endfor %}
     </select>
     <br><br>
@@ -20,8 +20,8 @@
 <div>
     <select id="brand">
         <option value="" disabled selected>Бренди</option>
-        {% for t in brand %}
-            <option>{{ t }}</option>
+        {% for l, s in brand %}
+            <option value="{{ s }}">{{ l }}</option>
         {% endfor %}
     </select>
     <br><br>
@@ -30,8 +30,8 @@
 <div>
     <select id="style">
         <option value="" disabled selected>Стилі</option>
-        {% for t in style %}
-            <option>{{ t }}</option>
+        {% for l, s in style %}
+            <option value="{{ s }}">{{ l }}</option>
         {% endfor %}
     </select>
 </div>
