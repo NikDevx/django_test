@@ -1,0 +1,15 @@
+.idea/
+/media/
+db.sqlite3
+migration.sh
+*/__pycache__/
+*.pyc
+*/migrations/
+*/*/migrations/
+*/*/*/migrations/
+*/*/*/*/migrations/
+*/prod_settings.py
+*/CACHE
+data/
+venv/
+/env/
